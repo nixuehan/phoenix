@@ -44,7 +44,7 @@ func toInt(v string) int {
 }
 
 func NewModels() (*Models,error){
-	mongo, err := mgo.Dial(Mongodb)  //连接数据库
+	mongo, err := mgo.Dial(Mongodb)
 	if err != nil {
 		log.Println("fail:mongodb connection failed")
 		return nil,err

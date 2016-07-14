@@ -47,7 +47,7 @@ type Models struct {
 }
 
 func NewModels() (*Models,error){
-	mongo, err := mgo.Dial(Mongodb)  //连接数据库
+	mongo, err := mgo.Dial(Mongodb)
 	if err != nil {
 		return nil,err
 	}
