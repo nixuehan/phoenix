@@ -3,6 +3,13 @@ Phoenix-打点服务
 
 以mongodb 固定集合作为持久存储. golang实现的打点服务。 目前主要用在线上API性能监控等。
 
+###文件解释
+phoenix.php   php的SDK
+
+phoenix_admin.go    查看数据曲线图。  暂无权限控制，启动了 看完了 记得干掉进程。。。哈哈
+
+
+
 运行即可
 
 
